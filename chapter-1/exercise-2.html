@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Αίτηση Συμμετοχής</title>
+</head>
+<body>
+  <h1>Αίτηση Συμμετοχής</h1>
+
+  <h2>Προσωπικά στοιχεία</h2>
+  <div>
+    <label for="firstname">Όνομα:</label>
+    <input type="text" name = "firstname" id="firstname" required minlength="4" maxlength="20">
+
+    <label for="lastname">Επώνυμο:</label>
+    <input type="text" name="lastname" id="lastname" required minlength="5" maxlength="25">
+
+    <label for="fathername">Πατρώνυμο:</label>
+    <input type="text" name="fathername" id="fathername" required minlength="4" maxlength="20">
+  </div>
+
+  <h2>Στοιχεία κατοικίας</h2>
+  <div>
+    <label for="homeAdress">Διεύθυνση Κατοικίας:</label>
+    <input type="text" name="homeAdress" id="homeAdress" required minlength="8" maxlength="30">
+
+    <label for="houseNumber">Αριθμός:</label>
+    <input type="text" name="houseNumber" id="houseNumber" required minlength="1" maxlength="4">
+
+    <label for="postalCode">ΤΚ:</label>
+    <input type="text" name="postalCode" id="postalCode" required minlength="1" maxlength="6">
+  </div>
+
+  <h2>Στοιχεία Επικοινωνίας</h2>
+  <div>
+    <label for="phoneNumber">Τηλέφωνο:</label>
+    <input type="text" name="phoneNumber" id="phoneNumber">
+
+    <label for="number">Αριθμός:</label>
+    <input type="text" name="number" id="number">
+  </div><br>
+
+  <!-- Added a submit button -->
+  <div>
+    <input type="submit" value="Υποβολή">
+  </div>
+</body>
+</html>

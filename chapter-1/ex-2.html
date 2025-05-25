@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Φόρμα Πληρωμής</title>
+</head>
+<body>
+  <h1>Φόρμα Πληρωμής</h1>
+  <p>Τα υποχρεωτικά πεδία ακολουθούνται από 
+    <abbr title="Required Field">*</abbr>
+  </p>
+
+  <p><h2>Προσωπικά Στοιχεία</h2>
+    <div>
+    <fieldset>
+      <legend>Title</legend>
+
+      <label for="male">Mr.</label>
+      <input type="radio" name="title" id="male" value="male"><br>
+
+      <label for="female">Mrs.</label>
+      <input type="radio" name="title" id="female" value="female"><br>
+
+      <label for="doctor">Dr.</label>
+      <input type="radio" name="title" id="doctor" value="doctor"><br>
+    </fieldset>
+
+    <label for="name">Name: 
+      <abbr title="Required Field">*</abbr>
+    </label>
+    <input type="text" name="name" id="name"><br>
+
+    <label for="email">E-mail:
+      <abbr title="Required Field">*</abbr>
+    </label>
+    <input type="email" name="email" id="email"><br>
+
+    <label for="password">Password:
+      <abbr title="Required Field">*</abbr>
+    </label>
+    <input type="password" name="password" id="password">
+    </div>
+
+    <h2>Πληροφορίες Πληρωμής</h2>
+    <div>
+      <p>
+      <label for="CardType">Card Type:</label>
+      <select name="CardType" id="CardType">
+        <option value="Visa" selected>Visa</option>
+        <option value="MasterCard">MasterCard</option>
+      </select><br>
+
+      <label for="CardNumber">Card Number:
+        <abbr title="Required Field">*</abbr>
+      </label>
+      <input type="text" name="CardNumber" id="CardNumber"><br>
+
+      <label for="ExprDate">Expiration Date:
+        <abbr title="Required Field">*</abbr>
+      </label>
+      <input type="text" name="ExprDate" id="ExprDate" placeholder="MM/YY" >
+    </div>
+
+    <div>
+      <input type="submit" value="Προχωρήστε στην πληρωμή">
+    </div>
+  </p>
+  
+</body>
+</html>

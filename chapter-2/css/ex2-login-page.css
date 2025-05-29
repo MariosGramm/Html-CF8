@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    background-color: #6495ed;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+fieldset {
+    background-color:white;
+    margin: auto;
+    width: 200px;
+    height: 250px;
+}
+
+p:nth-of-type(3){
+    color: black;
+}
+
+p:last-of-type {
+    color: white;
+}
+
+.black-link,
+.black-link:visited {
+    color: black;
+}
+
+.white-link,
+.white-link:visited {
+    color:white
+}
+
+
+

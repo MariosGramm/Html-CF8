@@ -51,6 +51,17 @@ p:last-of-type {
     white-space: nowrap;
 }
 
+input[type ="email"],
+input[type ="password"]{
+    width: 99%;
+    padding:11px;
+    background-color: #faf4f4;
+    border: none;
+    font-size: 18px;
+    
+}
+
+
 
 
 
